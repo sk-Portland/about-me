@@ -5,6 +5,7 @@ const buttonInput = document.getElementById('quiz-button');
 const result = document.getElementById('quizResult')
 
 buttonInput.onclick = function(){
+    alert('hello'};
 
     var nameInput = prompt('Please enter your name');
     const confirmed = confirm(nameInput + ', are you sure you want to take a quiz?') 
@@ -31,4 +32,4 @@ buttonInput.onclick = function(){
        correctAnswers +=1;
    }
 
-   const totalScore = correctinAdults + correctinHippocampus + correctinHumans;
+   const result = correctinAdults + correctinHippocampus + correctinHumans;
