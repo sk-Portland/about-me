@@ -1,9 +1,9 @@
 function isYes(text){
-    text = text.toLowerCase()
-    if(text === 'Y') 
+    text = text.toLowerCase();
+    if(text === 'y') 
     {return true;}
-    else {return false}
+    else {return false;}
 
 }
 
-export isYes;
+export default isYes;
