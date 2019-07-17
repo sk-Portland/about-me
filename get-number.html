@@ -23,15 +23,17 @@
     <!--This is my button and pushing the button starts the event (see 'on')--> 
 
     <form>
-        Enter your number and then press the blue button:<br>
+        Enter your number and then press the blue button to submit your guess:<br>
         <input id="guessNumber">
       </form>
     
-    <button id="quiz-button" width="60" height="100"></button>Press to play.</button>
+    <p>Number of tries remaining:<span id="numberTries"><</p>
 
-    <script src="../src/guess-number.js" type="module"></script>
+    <button id="game-button" onclick="updateResult()"></button>
 
     <script src="../src/number-tries.js" type="module"></script>
+
+
     
 
 </body>

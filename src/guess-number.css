@@ -8,10 +8,9 @@ p {
     text-align: center;
 }
 
-#quiz-button  {
-    height: 10px;
+#game-button  {
+    height: 50px;
     width: 50px;
     background-color: blue;
-    text-align: center;
 
 }
