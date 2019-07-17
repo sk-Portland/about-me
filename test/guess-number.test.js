@@ -1,21 +1,49 @@
 
-import './guess-number.test.js';
+import calculateNumber from '../src/guess-number.js';
 const test = QUnit.test;
+
+//Test 1 - no difference
 
 test('If the guessed number matches', function(assert) {
     // Arrange
     let guessNumber = 15;
     let givenNumber = 15;
-    const expected = 0;
+    const expected = 'correct';
 
     // Act
-    const result = calculateNumber(value);
+    const result = calculateNumber(guessNumber, givenNumber);
 
     // Assert
     assert.equal(result, expected);
 });
 
-//Test if the guessed number is lower and returns +1
+//Test 2, negative value too low
 
-//Test if the guessed number is higher and returns -1
+test('If the guessed number is too low', function(assert) {
+    // Arrange
+    let guessNumber = 13;
+    let givenNumber = 15;
+    const expected = 'Too low try again';
 
+    // Act
+    const result = calculateNumber(guessNumber, givenNumber);
+
+    // Assert
+    assert.equal(result, expected);
+});
+
+
+//Test 3, positive value  too high
+
+test('If the guessed numberis too high', function(assert) {
+    // Arrange
+    let guessNumber = 16;
+    let givenNumber = 15;
+    const expected = 'Too high try again';
+
+    // Act
+    const result = calculateNumber(guessNumber, givenNumber);
+
+    // Assert
+    assert.equal(result, expected);
+});

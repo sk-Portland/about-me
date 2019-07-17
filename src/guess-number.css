@@ -11,8 +11,7 @@ p {
 #quiz-button  {
     height: 10px;
     width: 50px;
-    background-color: yellow;
-    border: blue;
+    background-color: blue;
     text-align: center;
 
 }
