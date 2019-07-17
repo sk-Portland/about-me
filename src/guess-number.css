@@ -1,0 +1,18 @@
+
+h1 {
+
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#quiz-button  {
+    height: 10px;
+    width: 50px;
+    background-color: yellow;
+    border: blue;
+    text-align: center;
+
+}
