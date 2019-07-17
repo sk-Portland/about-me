@@ -43,7 +43,7 @@ test('If the answer is N', function(assert) {
     //Try to rememeber to do this for texts, arrange, act, assert
     //Arrange what are my variables and what should come back?
     const text = 'n' ;
-    const expected = true;
+    const expected = false;
 
     //Act  pull up the function for the person to enter
     const result = isYes(text);

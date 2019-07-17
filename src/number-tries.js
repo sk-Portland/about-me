@@ -1,22 +1,19 @@
 
-  import calculateNumber from '../src/guess-number.js'
+import calculateNumber from '../src/guess-number.js';
 
- const guessNumber = document.getElementById("guessNumber");
-  
-  var givenNumber=15;
+const guessNumber = document.getElementById('guessNumber');
+const button = document.getElementById('game-button');
+
+const givenNumber = 15;
  
-   function(calculateNumber){givenNumber, guessNumber};
+button.addEventListener('click', () => { 
+    const guess = parseInt(guessNumber.value);
+    const result = calculateNumber(guess, givenNumber);
+    
+    
 
 
-
-
- const numberTries;
-for (numberTries = 4; numberTries > 0; numberTries--) 
-    {console.log('These are the number of tries you have left:' + numberTries);
-
-
-
+});
 
   
-
-}
+ 

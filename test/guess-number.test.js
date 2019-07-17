@@ -8,7 +8,7 @@ test('If the guessed number matches', function(assert) {
     // Arrange
     let guessNumber = 15;
     let givenNumber = 15;
-    const expected = 'correct';
+    const expected = 0;
 
     // Act
     const result = calculateNumber(guessNumber, givenNumber);
@@ -23,7 +23,7 @@ test('If the guessed number is too low', function(assert) {
     // Arrange
     let guessNumber = 13;
     let givenNumber = 15;
-    const expected = 'Too low try again';
+    const expected = -1;
 
     // Act
     const result = calculateNumber(guessNumber, givenNumber);
@@ -39,7 +39,7 @@ test('If the guessed numberis too high', function(assert) {
     // Arrange
     let guessNumber = 16;
     let givenNumber = 15;
-    const expected = 'Too high try again';
+    const expected = 1;
 
     // Act
     const result = calculateNumber(guessNumber, givenNumber);
