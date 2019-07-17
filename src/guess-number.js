@@ -1,13 +1,13 @@
 
 
-function guess-number(value){
 
-    if(value===0)
-    {return 0}
-    else if(value<0)
-    {return - 1}
-    else(value>0) 
-    {return + 1}
-}
+function calculateNumber(value){
+
+    if (difference guessNumber -givenNumber === 0) {result = 0}
+    else if (difference guessNumber -givenNumber < 0) 
+    {result = -1}
+    else (difference guessNumber -givenNumber > 0)
+    {result = +1}
+};
 
 export default guess-number.js;
