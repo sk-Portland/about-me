@@ -1,14 +1,13 @@
 
 
-const guess-number = Input
+function guess-number(value){
 
-
-function guess-number(text){
-  );
-    if(guess - expected = 0) 
-    {console.log('Congratulations!');}
-    else{console.log('Wrong!');}
-
+    if(value===0)
+    {return 0}
+    else if(value<0)
+    {return - 1}
+    else(value>0) 
+    {return + 1}
 }
 
 export default guess-number.js;
