@@ -1,19 +1,17 @@
 
-import randomNumber from '../src/get-throw.js';
 
 import getThrowFromNumber from '../src/get-throw.js';
 const test = QUnit.test;
 
-//Test 1 - no difference
+//Test 1 - with the function assign a weapon based on a number?
 
-test('If the guessed number matches', function(assert) {
+test('Will the function generate a rock', function(assert) {
     // Arrange
-    let guessNumber = 15;
-    let givenNumber = 15;
-    const expected = 0;
+    let randomNumber = 0;
+    const expected = 'Opponent is scissors';
 
     // Act
-    const result = calculateNumber(guessNumber, givenNumber);
+    const result = getThrowFromNumber(0);
 
     // Assert
     assert.equal(result, expected);

@@ -1,28 +1,21 @@
 
 
-    // generate a random number between 0 to 10
-   function randomNumber() {return Math.floor(Math.random() * 10);
-   }
+// generate a random number between 0 to 2
+   const randomNumber = Math.floor(Math.random() * 3);
 
-   console.log(randomNumber);
-
-
-// return "rock" or "paper" or "scissors"
+// return "rock" or "paper" or "scissors" using random number
 
 function getThrowFromNumber(randomNumber){
 
-    if(randomNumber =< 3) {
+    if(randomNumber === 2) {
         return 'Opponent is a rock';
-    } else if(randomNumber < 7) {
+    } else if(randomNumber === 1) {
         return 'Opponent is paper';
-    } else randomNumber > 3 && > 0) {
+    } else randomNumber === 0) {
         return 'Opponent is scissors';
-    }
-};
-
-export default randomNumber;
+    };
 
 export default getThrowFromNumber;
 
 
-
+}
