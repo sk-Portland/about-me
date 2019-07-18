@@ -1,9 +1,5 @@
 
 
-// generate 0,1, or 2 randomly tested in consoe and works as predicted
-const randomNumber = Math.floor(Math.random() * 3);
-
-
 // return "rock" or "paper" or "scissors" using random number
 
 function getThrowFromNumber(randomNumber){

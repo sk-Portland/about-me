@@ -11,7 +11,7 @@ test('Will the function generate a rock', function(assert) {
     const expected = 'Opponent is scissors';
 
     // Act
-    const result = getThrowFromNumber(0);
+    const result = getThrowFromNumber(randomNumber);
 
     // Assert
     assert.equal(result, expected);
