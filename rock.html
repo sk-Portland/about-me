@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href ="./src/rock.css">
     <title>Rock Scissors Paper Game</title>
 </head>
 <body>
     <nav>
         <p><a href="index.html">Neurogenesis</a></p>
         <p><a href="get-number.html">Guess a number game</a></p>
-        <p><a href="rock.html">Guess a number game</a></p>
+        <p><a href="rock.html">Rock, Paper, Scissors Game</a></p>
     </nav>
    
     
@@ -19,7 +20,41 @@
 
     </h1></header>
 
+    <div>
 
+        <h4>Game rules:</h3>
+
+        <p>You select rock, paper, or scissors. 
+            Outcomes of the game are summarized in the table.</p>
+         
+
+        <table style="width:100%">
+            <tr>
+                <th></th>
+                <th>You Select Rock</th>
+                <th>You Select Paper</th> 
+                <th>You Select Scissors</th>
+            </tr>
+                <tr>
+                  <td><b>Opponent Rock<b></td>
+                    <td>Nobody wins 0</td>
+                    <td>You lose -1</td>
+                    <td>You win 0</td> 
+ 
+                </tr>
+                <tr>
+                    <td><b>Opponent Paper<b></td>
+                    <td>You win 1</td> 
+                    <td>Nobody wins 0</td> 
+                    <td>You lose -1</td>
+                <tr>
+                    <td><b>Opponent Scissors<b></td>
+                    <td>You lose -1</td> 
+                    <td>You win 0</td>
+                    <td>Nobody wins 1</td> 
+                      </tr>
+              </table>
+    </div>
 
 </body>
 </html>
