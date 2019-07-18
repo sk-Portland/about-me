@@ -1,8 +1,23 @@
 h1 {
 
     text-align: center;
-}
+};
 
 table, th, td {
     border: 1px solid black;
-  }
+
+};
+
+label {
+    cursor: pointer;
+};
+
+img {
+    width: 50px;
+    height: auto
+};
+
+.weapon-image {
+    width: 50px;
+    height: auto
+};

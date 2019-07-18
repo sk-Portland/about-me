@@ -1,12 +1,10 @@
 
 
-//generates a random number
-
     // generate a random number between 0 to 10
-    const randomNumber = Math.floor(Math.random() * 10);
+   function randomNumber() {return Math.floor(Math.random() * 10);
+   }
 
-    // show the random number
-    return randomNumber;
+   console.log(randomNumber);
 
 
 // return "rock" or "paper" or "scissors"
@@ -20,7 +18,11 @@ function getThrowFromNumber(randomNumber){
     } else randomNumber > 3 && > 0) {
         return 'Opponent is scissors';
     }
-}
+};
+
+export default randomNumber;
+
+export default getThrowFromNumber;
 
 
 
